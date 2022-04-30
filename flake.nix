@@ -23,7 +23,7 @@
         apps.node2nix = app;
         apps.default = app;
         nodeDependencies = nodeDependencies;
-        nodeShells.default = shell;
+        devShells.default = shell;
         inherit overlays;
       });
 }
